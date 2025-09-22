@@ -2,11 +2,11 @@ import streamlit as st
 
 # Página 1: Los Galácticos
 def pagina_los_galacticos():
-st.title("Los Galácticos")
-st.write("""
-    Los Galácticos son una agrupación musical destacada por su estilo único y energía inigualable.
-    """)
-st.image("los galacticos-copia.png", caption="lo mejor de chile")
+    st.title("Los Galácticos")
+    st.write("""
+        Los Galácticos son una agrupación musical destacada por su estilo único y energía inigualable.
+        """)
+    st.image("los galacticos-copia.png", caption="lo mejor de chile")
 
 # Página 2: Jere Klein
 def pagina_jere_klein():
@@ -57,3 +57,4 @@ opcion = st.sidebar.radio("Selecciona una página", list(paginas.keys()))
 # Mostrar página seleccionada
 pagina_seleccionada = paginas[opcion]
 pagina_seleccionada()
+
